@@ -1,0 +1,54 @@
+
+#main{
+  padding: 0px;
+  width:100%;
+  margin:0 auto;
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+#main h1{
+  font-family: 'Raleway', monospace;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#main h2{
+  font-family: 'Raleway', monospace;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+#main h3{
+  font-family: 'Raleway', monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+#main p{
+  font-family: 'Nanum Gothic', monospace;
+  font-size: 15px;
+}
+
+
+.feature_divider {
+    border: solid 2px;
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.feature_divider_small {
+    border: solid 0.6px;
+    display: block;
+    width: 30px;
+    margin: 10px auto;
+}
+
+.team .imagen{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+}

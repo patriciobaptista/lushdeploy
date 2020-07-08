@@ -1,0 +1,78 @@
+
+
+#Video {
+padding: 0px;
+margin: 0 auto;
+}
+
+#myVideo{
+  width:100%;
+}
+#Video .home-img{
+  display: none;
+}
+
+.icons{
+  display:flex;
+  padding:20px;
+  justify-content: space-between;
+}
+
+.icons p{
+  font-family: "Raleway", monospace;
+  font-size: 18px;
+}
+
+.feature_divider {
+    border: solid 2px;
+    display: block;
+    width: 70px;
+    margin: 25px auto;
+    border-color: #D4AF37;
+}
+
+.imagen{
+  max-height: 150px;
+  max-width: 150px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#destinations{
+  position: relative;
+  padding: 0px;
+  height: 700px;
+  width:100%;
+  margin:0 auto;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#destinations .boton{
+  position: absolute;
+  top:250px;
+  padding:0px;
+  margin:0 auto,
+}
+
+h1,h2{
+  text-transform: uppercase;
+  font-family: "Raleway", monospace;
+  font-size: 22px;
+}
+
+.boton h2{
+  text-transform: uppercase;
+  font-family: Nanum Gothic, monospace;
+  font-size: 50px;
+  color: white;
+}
+
+.boton p{
+  text-transform: uppercase;
+  font-family: Nanum Gothic, monospace;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}

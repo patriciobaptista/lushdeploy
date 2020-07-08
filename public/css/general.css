@@ -1,0 +1,283 @@
+body{
+  min-height: 600px;
+}
+#header{
+  position:fixed;
+  background-color: rgba(108, 108, 106, 0.5);
+  margin: 0 auto;
+  z-index: 999;
+}
+
+#header .logo-name{
+  display: none;
+}
+
+#header .logo-left{
+  width:50px;
+  height: 50px;
+  opacity:1;
+  padding: 0;
+}
+
+#header .nav{
+  position: relative;
+  padding-top: 20px;
+}
+
+
+#header #dropdown-small{
+  display:none;
+}
+
+#header #dropdown-big .dropdown-menu{
+  background-color: rgba(108, 108, 106, 0.5);
+}
+
+#header .dropdown-menu .dropdown-item:hover{
+  background-color: #f8f9fa00;
+}
+
+#header ul li{
+  display: inline;
+  align-items: center;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+#header nav ul li a{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+  text-shadow: rgba(0,0,0,.01) 0 0 0.5px;
+}
+
+#header .auth{
+padding-right: 5px;
+}
+
+
+#header .fas{
+  color: white;
+}
+
+#cart_counter{
+  text-align: center;
+  padding:0 0.2rem 0.1rem 0.2rem;
+  border-radius: 3rem;
+  border: solid white 1px;
+}
+
+.btn-light{
+  background-color:rgba(109, 109, 106, 0.5);
+  font-family: 'Raleway', monospace;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+#switch{
+  background-color:rgba(109, 109, 106, 0.5);
+  font-family: Nanum Gothic, monospace;
+  font-size: 12px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+#switch:hover{
+  background-color: white;
+  color: #CFB53B;
+  border-color: #CFB53B;
+}
+
+#footer{
+  background-color: grey;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin: 0 auto;
+}
+
+#footer ul li{
+  display: inline;
+  padding-right: 10px;
+}
+
+#footer p{
+  margin-bottom: 0px;
+}
+
+#footer a{
+  margin-bottom: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.styledropdown{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+  text-shadow: rgba(0,0,0,.01) 0 0 0.5px;
+}
+
+
+.footer-social ul{
+  padding:0px;
+  margin:0 auto;
+}
+
+.footer-legal ul{
+  padding:0px;
+  margin:0 auto;
+}
+
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+.fa-twitter-square {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+
+.fa-cc-visa {
+  color: white;
+}
+
+.fa-cc-mastercard {
+  color: white;
+}
+
+.fa-cc-amex {
+  color: white;
+}
+.fa-cc-paypal {
+  color: white;
+}
+
+@media screen and (max-width: 600px){
+
+.nav{
+    display: none;
+}
+
+#dropdown-big{
+  display: none;
+}
+.logo-left, .logo-right{
+    display: none;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#header #dropdown-small{
+  display: contents;
+}
+
+#header .logo-name{
+  display: inline;
+  width:100px;
+  height: 40px;
+  opacity:1;
+  right: 30px;
+  top: 0px;
+  padding: 0;
+  margin: 20px;
+}
+
+#dropdown-small .dropdown-menu{
+  background-color: grey;
+}
+#dropdown-small .dropdown-item{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgba(0,0,0,.01) 0 0 0.5px;
+}
+
+.icons .imagen{
+  max-height: 120px;
+  max-width: 120px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+
+.container1 {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+}

@@ -1,0 +1,127 @@
+#main{
+  background-size: cover;
+  background-attachment: center center;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+.main{
+  background-image: url("../storage/capadocia-sunset.jpg");
+}
+
+main.dark .main {
+  background-image: none !important;
+}
+
+#main .page-title{
+text-align: center
+}
+
+#main h1{
+  font-family: 'Raleway', monospace;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#main .form-group{
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+#main .transparent{
+  background-color:rgba(0,0,0,0) !important;
+  border:none !important;
+}
+#main .sesError {
+  color: red;
+  font-size: 80%;
+}
+#main .sesSuc{
+  color: green;
+  font-size: 80%;
+}
+
+
+#main .feature_divider {
+    border: solid 2px;
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+
+#profile-pic img{
+  border-radius: 50%;
+  width: 250px;
+}
+
+.section-right .field, .value{
+background: rgba(255,255,255, 0.8);
+}
+
+#main.dark .field, .value{
+  color: black !important;
+}
+#main h2{
+  font-family: 'Raleway', monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#main #changephoto label{
+  font-family: 'Nanum Gothic', monospace;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+#main .field p{
+  font-family: 'Raleway', monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#main .value p{
+  font-family: 'Nanum Gothic', monospace;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.btn-primary{
+  background-color:#CFB53B;
+  font-family: Nanum Gothic, monospace;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.btn-primary:hover{
+  background-color: white;
+  color: #CFB53B;
+  border-color: #CFB53B;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .title{
+    margin-top:40px;
+  }
+
+  #profile-pic img{
+      width: 220px;
+}
+.section-right{
+  margin: 0 auto;
+}
+.row{
+  margin-left: 5px;
+}
+
+#main h2{
+  margin-left: 5px;
+}
+}

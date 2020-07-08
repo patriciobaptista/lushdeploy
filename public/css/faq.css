@@ -1,0 +1,65 @@
+#main{
+  background-size: cover;
+  background-attachment: center center;
+  background-attachment: fixed;
+  min-height: 700px;
+  width:100%
+}
+
+#main.dark .bora {
+  background-image: none !important;
+}
+
+#main .title h1{
+  font-family: 'Raleway', monospace;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+#main .feature_divider {
+    border: solid 2px;
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+
+
+.collapsible {
+  background-color: rgb(245,245,245, 0.5);
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border: solid 1px #CFB53B;
+}
+
+.collapsible h2{
+  font-family: 'Nanum Gothic', monospace;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+  color: #CFB53B;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.content p{
+  font-family: 'Nanum Gothic', monospace;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-top:12px;
+  color:grey;
+}

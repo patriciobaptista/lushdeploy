@@ -1,0 +1,134 @@
+h1, h2, h3 {
+  font-family: 'Raleway', monospace;
+}
+body{
+  font-family: 'Nanum Gothic';
+  overflow-y: scroll;
+  background-image: url("../storage/light.jpg")!important;
+  background-size: cover;
+  }
+}
+.backgroundphoto{
+  background-size: cover;
+  width: 100%;
+  min-height: 686px;
+}
+
+
+  #main h1{
+    font-family: 'Raleway', monospace;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .feature_divider {
+      border: solid 2px;
+      display: block;
+      width: 100px;
+      margin: 10px auto;
+  }
+
+}
+.photodad{
+  width: auto;
+  position: relative;
+
+}
+#centertext{
+position: absolute;
+text-align: center;
+padding-top: 330px;
+}
+#centertext .title{
+  text-transform: bold;
+  font-size: 45px;
+  color: white;
+}
+#centertext .undertitle{
+  text-transform: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.dad{
+  min-height: 600px;
+  flex-wrap: wrap;
+}
+.contphot{
+  background-color: *//*#FFF8E4;*//
+}
+.embodiment{
+  min-height: 800px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.carousel{
+  height: 300px;
+}
+.dad .embodiment .carouselparent{
+  flex-wrap: wrap;
+  opacity: 1;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  box-shadow: 3px 3px 7px grey;
+  border-radius: 3%;
+  background-size: cover;
+  background-color: #F5F5F0;
+}
+
+body.dark .dad .embodiment .carouselparent{
+  color: black !important;
+}
+.carousel .carousel-inner{
+height: 85vh;
+position: relative;
+}
+.carousel-inner .carousel-item{
+  height: 45vh;
+}
+.carousel-inner .carousel-item img{
+  height: 310px;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.bottomtext{
+  padding: 0;
+  margin: 0 auto
+}
+.bottomtext a{
+  border-color: #D4AF37;
+  text-decoration: none;
+  background-color: #D4AF37;
+  color: #FFFFFF;
+  padding: 10px;
+  border:  2px;
+  box-shadow: 2px 2px 3px  #D4AF37;
+  border-radius: 10%;
+  font-weight: 500;
+
+}
+.bottomtext a:hover{
+  background-color: #B2932D;
+  transition: 0.5s;
+  box-shadow: 2px 2px 3px #B2932D;
+
+}
+
+.main-photo{
+ height: 400px;
+ object-fit: cover;
+}
+.photoheader{
+align-self: center;
+}
+.btn{
+}
+.btnlink{
+}
+
+@media screen and (max-width: 768px;){
+
+}

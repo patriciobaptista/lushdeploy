@@ -1,0 +1,63 @@
+#main h1{
+  font-family: 'Raleway', monospace;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.text p{
+  font-family: 'Raleway', monospace;
+  font-size: 20px;
+}
+
+.feature_divider {
+    border: solid 2px;
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.contact-form label{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width:100%;
+}
+
+.form .contact-submit{
+  background-color:#CFB53B;
+  font-family: Nanum Gothic, monospace;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 5rem;
+}
+
+.form .contact-submit:hover{
+  background-color: white;
+  color: #CFB53B;
+  border-color: #CFB53B;
+}
+
+.map{
+  position: relative;
+}
+
+.our_home{
+  padding: 20px;
+  border: solid 3px black;
+  position:absolute;
+  top: 20px;
+  left: 20px;
+  background-image: url("../storage/dark.jpg");
+  color:white;
+}
+
+.our_home p{
+  font-family: 'Raleway', monospace;
+  font-size: 17px;
+  color:white;
+}

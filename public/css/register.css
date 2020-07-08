@@ -1,0 +1,77 @@
+
+
+html{
+  font-family: 'Raleway', monospace;
+}
+
+section {
+  box-sizing: border-box;
+}
+select,label{
+  font-family: 'Raleway', monospace;
+  width:100%;
+}
+
+
+
+.photobackground{
+  width: 100%;
+  min-height: 750px;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+body.dark .photobackground {
+  background-image: none !important;
+}
+
+
+.formcontain .formAll{
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.9;
+  padding-left: 50px;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+body.dark .formcontain .formAll{
+    background-image:url("../storage/dark.jpg")!important;;
+}
+
+.formcontain .formAll .form-group{
+  width: 80%;
+
+}
+#submitbottom{
+  margin-bottom: 30px;
+  background-color:#CFB53B;
+  font-family: Nanum Gothic, monospace;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+#submitbottom:hover{
+  background-color: white;
+  color: #CFB53B;
+  border-color: #CFB53B;
+}
+
+.error{
+  color: red;
+  font-weight: 600;
+}
+
+.errorJava{
+  color:red;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: 'Nanum Gothic', monospace;
+}
